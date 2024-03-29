@@ -1,4 +1,4 @@
 print("""Total days in Year
 365
-Circimference rate
-3.1415926536""")
+Circumference rate
+3.1415926535""")
