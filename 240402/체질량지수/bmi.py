@@ -1,8 +1,8 @@
 input_value = input()
 h, w = map(int, input_value.split())
-b = w/(h/100)**2 
+b = w/(h/100)**2
+print(int(b)) 
 if b >= 25 :
-    print(int(b))
     print("Obesity")
 
 #소수점 출력
