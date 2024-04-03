@@ -4,7 +4,7 @@ if level >= 90:
 elif level >= 80:
     print("B")
 elif level >= 70:
-    print("c")
+    print("C")
 elif level >= 60:
     print("D")
 else :
