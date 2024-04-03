@@ -8,7 +8,7 @@ elif capital == "B":
     print("Good")
 elif capital == "C":
     print("Usually")
-elif calital == "D":
+elif capital == "D":
     print("Effort")
 else :
     print("Failure")
