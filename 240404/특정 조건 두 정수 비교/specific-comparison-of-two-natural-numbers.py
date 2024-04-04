@@ -8,7 +8,7 @@ import random
 if a < b:
     print("1",end = " ")
 else :
-    pritn("0",end = " ")
+    print("0",end = " ")
 
 if a == b:
     print("1")
