@@ -18,10 +18,19 @@ if sympton1 == "Y" and sympton2 == "Y" and sympton3 == "Y":
     else:
         print("N")
 elif sympton1 == "N" and sympton2 == "Y" and sympton3 == "Y":
-    print("E")
+    if int(tempt2) >= 37 and int(tempt3) >= 37:
+        print("E")
+    else:
+        print("N")
 elif sympton2 == "N" and sympton1 == "Y" and sympton3 == "Y":
-    print("E")
+    if int(tempt1) >= 37 and int(tempt3) >= 37:
+        print("E")
+    else:
+        print("N")
 elif sympton3 == "N" and sympton1 == "Y" and sympton2 == "Y":
-    print("E")
+    if int(tempt1) >= 37 and int(tempt2) >= 37:
+        print("E")
+    else:
+        print("N")
 else:
     print("N")
