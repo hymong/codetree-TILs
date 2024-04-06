@@ -13,3 +13,5 @@ elif a == b:
     print(a)
 elif b == c:
     print(b)
+elif a == c:
+    print(a)
