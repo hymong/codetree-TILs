@@ -9,7 +9,11 @@ sympton3, tempt3 = map(str, input_value3.split())
 if sympton1 == "Y" and sympton2 == "Y" and sympton3 == "Y":
     if int(tempt1) >= 37 and int(tempt2) >= 37 and int(tempt3) >= 37:
         print("E")
-    elif int(tempt1) >= 37 or int(tempt2) >= 37 or int(tempt3) >= 37:
+    elif int(tempt1) >= 37 and int(tempt2) >= 37:
+        print("E")
+    elif int(tempt1) >= 37 and int(tempt3) >= 37:
+        print("E")
+    elif int(tempt2) >= 37 and int(tempt3) >= 37:
         print("E")
     else:
         print("N")
