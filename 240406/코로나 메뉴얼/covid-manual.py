@@ -34,3 +34,5 @@ elif sympton3 == "N" and sympton1 == "Y" and sympton2 == "Y":
         print("N")
 else:
     print("N")
+
+    #이 문제는 arr써서 그냥 각자 type 지정 후 푸는 게 더 편했을지도!
