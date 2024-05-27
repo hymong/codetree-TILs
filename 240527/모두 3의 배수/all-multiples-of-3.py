@@ -6,6 +6,7 @@ for i in range(5):
         result = True
     else:
         result = False
+        break
 
 if result == True:
     print(1)
