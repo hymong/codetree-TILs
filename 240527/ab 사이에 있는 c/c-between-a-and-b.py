@@ -8,6 +8,6 @@ for i in range(a, b+1):
         break
 
 if multiple_c == "True":
-    print("Yes")
+    print("YES")
 else:
-    print("No")
+    print("NO")
